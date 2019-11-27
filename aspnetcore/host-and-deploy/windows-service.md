@@ -96,7 +96,7 @@ For a web app-based service that uses the Razor Pages or MVC frameworks, specify
 <Project Sdk="Microsoft.NET.Sdk.Web">
 ```
 
-If the service only executes background tasks (for example, [hosted services](xref:fundamentals/host/hosted-services)), specify the Worker SDK in the project file:
+If the service only executes background tasks (for example, [hosted services](xref:fundamentals/host/hosted-services)), specify the Worker SDK in the project file (since .NET Core 3.0):
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Worker">
